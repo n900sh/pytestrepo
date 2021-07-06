@@ -4,21 +4,14 @@
 
 # while <условие>:
 #     <блок кода>
-
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 print('дратути!')
 i = 1
 while i < 10:
     i = i * 2
     print(i)
 print('дотвидания!')
-
-# последовательность Фибоначи 1, 1, 2, 3, 5, 8, 13, 21, ...
-f1, f2 = 1, 1
-while f2 < 1000:
-    print(f2)
-    next_f2 = f1 + f2
-    next_f1 = f2
-    f1, f2 = next_f1, next_f2
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 
 # else
 i = 1
@@ -40,7 +33,7 @@ while i < len(my_pets):
     i += 1
 print('дотвиданя!')
 
-
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 # continue
 my_pets = ['lion', 'dog', 'skunk', 'hamster', 'cat', 'monkey']
 i = -1
@@ -54,7 +47,7 @@ while i < len(my_pets):
         print('Ура, кот найден!')
         break
 print('дотвиданя!')
-
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 
 # else, break and continue - все вместе
 f1, f2, count = 0, 1, 0
@@ -70,15 +63,5 @@ while f2 < 10000:
 else:
     print('Было', count, 'итераций')
 
-
-# корректный ввод пользователя
-while True:
-    user_input = input('Введите 42 >> ')
-    result = int(user_input)
-    if result == 42:
-        print('Спасибо за сотрудничество!')
-        break
-    else:
-        print('Я просил 42, а Вы ввели', result, 'Попробуйте еще раз...')
-
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 
