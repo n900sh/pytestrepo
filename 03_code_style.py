@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # блоки кода
-
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 x, y = 10, 29
 
 if x < 0:
@@ -11,7 +11,7 @@ else:
     print('Х больше нуля')
     z = x - y
 print('Результат', z)
-
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 # ср. с С++
 
 # if (x < 0) { printf('Меньше нуля\n'); z = x**2 + y; } else { printf('Больше нуля\n'); z = x - y; } printf('Получается\n', z)
@@ -34,15 +34,7 @@ else:
             opponent = 'anonymous'
             print('Hi, anonymous!')
 
-# оператор pass
-
-if x < 0:
-    if y > 0:
-        z = -x + y
-    else:
-        z = -x - y
-else:
-    z = x + y
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 
 # соглашения о стиле кода
 # PEP8 (Python Enhancement Proposal 8) - описан "правильный" стиль программирования в пайтон
@@ -91,10 +83,7 @@ else       :
 
 
 # названия переменных
-
-count_of_my_pets = 34
-if count_of_my_pets > 10:
-    print('I need more space for my pets!')
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
 
 my_favorite_pets_and_bird = ['cat', 'wolf', 'ostrich']
 if 'lion' in my_favorite_pets_and_bird:
@@ -144,3 +133,7 @@ if 'lion' in ss:
 # Практически все они основываются на PEP8, с небольшими исключениями, принятыми в этой команде.
 # Как пример стайл-гайда небольшой компании рекомендую почитать
 # https://github.com/best-doctor/guides/blob/master/guides/python_styleguide.md
+
+
+
+# ВНОСИМ НЕПОПРАВИМЫЕ УЛУЧШЕНИЯ, ЧТОБ СОЗДАТЬ POOL REQUEST
